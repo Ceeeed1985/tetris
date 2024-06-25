@@ -4,44 +4,86 @@
     padding: 0;
 } */
 
+
+body{
+    background-color: #eee4ca;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
 .container-jeu{
     display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    border: 3px solid #264653;
+    border-radius: 2em;
+    padding-top: 3em;
+    padding-bottom : 3em;
 }
 
 .grid{
-    width: 200px;
-    height: 400px;
-    background-color: yellow;
+    width: 300px;
+    height: 600px;
+    background-color: #e5e5dc;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid grey;
+    border: 3px solid grey;
 }
 
 .grid section {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+    border: 0px solid blue;
+    border-radius: 3em;
 }
 
 .tetromino {
-    background-color: blue;
-}
-
-.taken {
-    background-color : black;
+    background-color: #2a9d8f;
 }
 
 .mini-grid{
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     /* background-color: green; */
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
+    justify-content: center;
 }
 
 .mini-grid section{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
+    border: 0px solid blue;
+    border-radius: 3em;
 
 }
 
+h1 {
+    text-align: center;
+    font-size: 3em;
+    background-color: white;
+    color: #2a9d8f;
+    width: 600px;
+    border: 3px solid #264653;
+    border-radius: 1em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+button{
+    background-color: #264653;
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    border: 0.2em solid #264653;
+    border-radius: 0.5em;
+}
